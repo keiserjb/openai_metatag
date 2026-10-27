@@ -1,5 +1,16 @@
 # OpenAI Metatag Helper
 
+> **Deprecated:** This module is no longer developed. It is replaced by
+> [`ai_metatag`](https://github.com/backdrop-contrib/ai_metatag), part of the [AI](https://github.com/backdrop-contrib/ai) suite for Backdrop CMS.
+
+If you have this module installed, upgrade to the replacement:
+
+1. Add the [AI](https://github.com/backdrop-contrib/ai) module and the replacement module(s) to your site.
+2. Enable **AI Upgrade UI** (`ai_upgrade`, included with AI).
+3. Run the upgrade at `admin/config/ai/upgrade` (or `bee ai-upgrade`). It
+   enables the replacements, copies your settings, permissions, blocks and
+   stored data, and disables this module.
+
 ## What does it do?
 OpenAI Metatag Helper adds a "Generate Metatags with OpenAI" button to Backdrop node edit forms and an option to auto-generate missing meta tags on save. It uses the site's configured OpenAI integration to produce SEO-friendly values (title, description, open-graph fields, keywords) and populates Metatag fields where appropriate.
 
